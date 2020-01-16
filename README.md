@@ -7,6 +7,9 @@ This was an fMRI experiment, with subjects laying in the scanner and seeing bloc
 ## fmri scan
 The scan did only cover 2/3 of the brain (including temporal and occipital poles, but excluding superior frontal and superior parietal areas) to increase spatial resolution (decreasing voxel size) without decreasing temporal resolution (i.e. increasing scanner TR).
 
+## preprocessing
+fieldmap correction, realignment, t1 coregistration + segmentation, epi normalization (over t1 segmentation deformation matrix), smoothing (6mm FWHM) 
+
 ## first level analysis
 Each subject folder contains the corresponding SPM.mat and several contrast images and t-maps.
 The contrast index are the follows:
